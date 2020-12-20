@@ -34,7 +34,7 @@
   $headers = "From: $email_from \r\n";
   $headers .= "Reply-To: $from_email \r\n";
 
-  mail($to,$email_subject,$email_body,$headers)
+  //mail($to,$email_subject,$email_body,$headers)
 
 
   // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
