@@ -172,8 +172,8 @@
 
   // Testimonials carousel (uses the Owl Carousel library)
   $(".testimonials-carousel").owlCarousel({
-    autoplay: false,
-    slideSpeed: 10000,
+    autoplay: true,
+    slideSpeed: 20000,
     dots: true,
     loop: true,
     items: 1
